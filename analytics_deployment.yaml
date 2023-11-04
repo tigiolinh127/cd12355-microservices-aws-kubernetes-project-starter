@@ -25,5 +25,3 @@ spec:
             value: scAyXmEFnf
           - name: DB_HOST
             value: postgre-postgresql
-
-status: {}

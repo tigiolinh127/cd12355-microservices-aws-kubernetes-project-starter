@@ -5,7 +5,7 @@ WORKDIR /app
 COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
-pip install --upgrade flask
+RUN pip install --upgrade flask
 
 ENV DB_USERNAME=$DB_USERNAME
 ENV DB_PASSWORD=$DB_PASSWORD
