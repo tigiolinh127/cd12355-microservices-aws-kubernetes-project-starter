@@ -4,6 +4,10 @@ WORKDIR /app
 
 COPY . .
 
+ENV DB_USERNAME=postgres
+ENV POSTGRES_PASSWORD=4J7GhmBgVJ
+ENV DB_HOST=postgre-postgresql
+
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install --upgrade flask
 
