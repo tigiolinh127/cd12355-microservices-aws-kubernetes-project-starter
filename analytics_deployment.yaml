@@ -21,7 +21,7 @@ spec:
         env:
           - name: DB_USERNAME
             value: postgres
-          - name: POSTGRES_PASSWORD
+          - name: DB_PASSWORD
             value: 4J7GhmBgVJ
           - name: DB_HOST
             value: postgre-postgresql
